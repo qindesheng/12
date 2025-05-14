@@ -1,0 +1,31 @@
+42.192.37.16:22 open
+42.192.37.16:8080 open
+42.192.37.16:3000 open
+42.192.37.16:8081 open
+42.192.37.16:8082 open
+[*] WebTitle: http://42.192.37.16:8081  code:302 len:0      title:None 跳转url: http://42.192.37.16:8081/showcase.action
+[*] WebTitle: http://42.192.37.16:8080  code:200 len:11197  title:Apache Tomcat/7.0.79
+[*] WebTitle: http://42.192.37.16:3000  code:200 len:15424  title:AES Killer - Demo App
+[*] WebTitle: http://42.192.37.16:8081/showcase.action code:200 len:11806  title:Struts2 Showcase
+[+] http://42.192.37.16:8080 poc-yaml-iis-put-getshell 
+[*] WebTitle: http://42.192.37.16:8082  code:200 len:1554   title:Welcome to JBoss AS
+[+] InfoScan:http://42.192.37.16:8082  [Jboss] 
+[+] http://42.192.37.16:8080 poc-yaml-tomcat-cve-2017-12615-rce 
+[+] http://42.192.37.16:8081 poc-yaml-struts2_045 poc1
+127.0.0.1:445 open
+127.0.0.1:135 open
+127.0.0.1:9100 open
+127.0.0.1:7680 open
+127.0.0.1:10000 open
+[*] WebTitle: http://127.0.0.1:9100     code:426 len:0      title:None
+[*] WebTitle: http://eci-2zebpy1lon1hvg21jqo1.cloudeci1.ichunqiu.com:8080 code:404 len:0      title:None
+192.168.57.100:80 open
+192.168.57.100:21 open
+192.168.57.100:22 open
+192.168.57.100:888 open
+192.168.57.100:8888 open
+[*] WebTitle: http://192.168.57.100     code:200 len:138    title:404 Not Found
+[*] WebTitle: http://192.168.57.100:888 code:404 len:548    title:404 Not Found
+[*] WebTitle: http://192.168.57.100:8888 code:200 len:4470   title:Java Security
+[+] http://192.168.57.100:8888 poc-yaml-spring-actuator-heapdump-file 
+[+] http://192.168.57.100:8888 poc-yaml-springboot-env-unauth spring2
